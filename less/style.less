@@ -28,18 +28,20 @@ header {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	padding-top: 100px;
+}
+
+header {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 #content, #menu {
-	-moz-box-sizing: border-box; // firefox
-	-webkit-box-sizing: border-box; // android 2.3
 	box-sizing: border-box;
-	-webkit-transition: -webkit-transform .5s ease; // safari ios lte 6.1 , android lte 4.3
-    transition: -webkit-transform .5s ease; // safari ios gte 7.0, android gte 4.4, chrome, opera
     transition: transform .5s ease;
 	#showmenu:target & {
-	    -webkit-transform:  translate(-100%, 0); // chrome, safari, opera, android
-	    -ms-transform:      translate(-100%, 0); // ie9
 	    transform:          translate(-100%, 0);
 	}
 }
@@ -66,7 +68,7 @@ header {
 
 .with-styling {
 	font: 16px 'Helvetica Neue', sans-serif;
-	background: #efefef; 
+	background: #efefef;
 	header {
 		background: #333; color: white;
 	}
