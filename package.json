@@ -1,0 +1,34 @@
+{
+  "name": "sliding-mobile-menu",
+  "version": "0.0.0",
+  "description": "Sliding mobile menu without using javascript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/batfink/sliding-mobile-menu"
+  },
+  "keywords": [
+    "mobile",
+    "menu",
+    "pure",
+    "css"
+  ],
+  "author": "Victor Nystad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batfink/sliding-mobile-menu/issues"
+  },
+  "homepage": "https://github.com/batfink/sliding-mobile-menu",
+  "devDependencies": {
+    "gulp": "~3.8.7",
+    "gulp-gh-pages": "~0.3.3",
+    "require-dir": "~0.1.0",
+    "browser-sync": "~1.3.6",
+    "gulp-sourcemaps": "~1.1.1",
+    "gulp-less": "~1.3.5",
+    "gulp-autoprefixer": "0.0.9"
+  }
+}
